@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Shadows+Into+Light+Two&display=swap');
+/* responsive practice ^_^ */
+
+ html {
+  height: 100%;
+  
+  overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    background: url(assets/Untitled@1-1920x1080.png);
+    background-size: cover;
+    /* background-position-x: -50px center; */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  /* spline-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1920px;
+    height: 1080px;
+    z-index: -1; /* Ensures it stays in the background */
+  
+   
+  iframe {
+    position: fixed;
+    box-sizing: border-box;
+    border: none; /* Removes the border */
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    position: fixed; /* Makes the iframe cover the entire screen */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+  .container { 
+    border-radius: 10px;
+    min-height: 50%;
+    position: relative;
+    margin: auto;
+    z-index: 10; /* Ensure it's above the Spline viewer */
+    /* Add your styles for the container */
+    /* For example, to ensure it doesn't stretch too wide: */
+    max-width: 600px; /* Or whatever max width you prefer */
+    height: 100%;
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: rgba(255, 255, 255, 0.95); /* Optional: Slightly transparent background */
+  }
+
+
+
+
+
+  
+#input {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 16px;
+    align-content: center;
+}
+
+  #itemList {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  #itemList li {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    gap: 8px; /* Add some space between checkbox and item text */
+    list-style-type: none; 
+  }
+  
+  #itemList input[type="checkbox"] {
+    margin-right: 8px; /* Add some space between checkbox and item text */
+    border: 2px solid #ccc; /* Adjust thickness */
+    border-radius: 50%; 
+  }
+
+ 
+#addButton {
+    box-sizing: border-box;
+    background-color: #ffc7df;
+    font-size: 32px; /* Make the button and the icon larger */
+    border-radius: 50%; /* Round the corners of the button */
+    color: #fff; /* Text and icon color */
+    border: none; /* Remove default button border */
+    /* padding: 10px; Add some padding */
+    cursor: pointer; /* Change cursor to pointer */
+    height: 48px;
+    width: 48px;
+    display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+    align-content: center;
+  }
+
+  #addButton:hover {
+    background-color: #ff8fb2; /* Lighten the background color */
+  }
+
+  #inputField {
+    box-sizing: border-box;
+    width: 66%; /* Full width */
+    height: 48px;
+    padding: 10px; /* Add some padding */
+    margin: 10px 0; /* Add some space between the input and the button */
+    border: 1px solid #ccc; /* Add a grey border */
+    border-radius: 33px; /* Round the corners */
+  }
+  #inputField::placeholder {
+    color: #ccc; /* Light grey placeholder text */
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+  }
+  h1 {
+      font-size: 60px;
+      font-family: 'Cookie', cursive;
+      font-weight: 600;
+      margin-top: -10px;
+      margin-bottom: -7px;
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+ /* Remove default list styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style list items */
+li {
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
